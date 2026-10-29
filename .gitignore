@@ -1,0 +1,24 @@
+# Private: booking backend source (back it up in a private repo or Drive instead)
+booking-backend/
+
+# Secrets and local settings: never commit these
+.env
+.env.*
+*.env
+*.pem
+*.key
+secrets*
+credentials*.json
+.clasp.json
+.clasprc.json
+
+# Editor, OS and tool clutter
+.vscode/
+.idea/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
